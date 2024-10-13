@@ -2,7 +2,7 @@
 
 The mission of this project is to provide a repository of research, guides, and tools for:
 
-1. Creating fast, stable remote ODBC connections to Quickbooks Desktop instances for running read-only SQL queries regardless of whether or not the local user is logged into QuickBooks Desktop locally  
+1. Creating fast and stable remote ODBC connections to Quickbooks Desktop instances for running read-only SQL queries regardless of whether or not the local user is logged into QuickBooks Desktop locally  
 2. Understanding the structure of the internal SQL Anywhere Database used by Quickbooks Desktop for writing read-only SQL queries
 
 # Sample Use Cases
