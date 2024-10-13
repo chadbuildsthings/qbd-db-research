@@ -44,14 +44,14 @@ To set up a Linked Server that is connected to Quickbooks, we have to use a Prov
 # Creating an ODBC User
 
 1. Log in to Quickbooks using the admin account  
-2. Go to Reports \> Custom Reports \> ODBC  
+2. Go to Reports > Custom Reports > ODBC  
 3. Click “Manage ODBC Users”  
 4. Click New…  
    1. Give an ODBC User Name  
    2. Create a password. (Note I had issues using symbols)  
    3. Confirm password  
    4. Click QBReportAdminGroup  
-   5. Click Add \>\>  
+   5. Click Add >>  
    6. Click OK
 
 # Create a Linked Server
@@ -62,7 +62,7 @@ To set up a Linked Server that is connected to Quickbooks, we have to use a Prov
 4. Right Click Linked Servers  
 5. Click “New Linked Server”  
 6. In the General page  
-    1. Give it a Linked Server name (e.g. QB\_LINK)  
+    1. Give it a Linked Server name (e.g. QB_LINK)  
     2. Tick “Other data Source”  
     3. Use provider string generated from the first section (e.g. FILEDSN=C:\\QB\\s.qbw.dsn)  
 7. In the Security page  
@@ -71,9 +71,9 @@ To set up a Linked Server that is connected to Quickbooks, we have to use a Prov
        2. With password: enter ODBC Password from Quickbooks  
 8. Click OK. There shouldn’t be any errors.  
 9. Verify that it worked  
-    1. Assuming you named your linked server QB\_Link  
+    1. Assuming you named your linked server QB_Link  
     2. Click New Query  
     3. Enter the following command and click execute:  
-       ```SELECT \* FROM OPENQUERY(\[QB\_LINK\], ‘SELECT DB\_NAME() AS CurrentDatabase’);```
+       ```SELECT * FROM OPENQUERY([QB_LINK\], ‘SELECT DB_NAME() AS CurrentDatabase’);```
     4. A result should appear with column header “Current Database” and row 1 value being a long string of numbers and letters ranging from a through f
     5. If you get a result like this, it worked.
