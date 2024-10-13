@@ -3,10 +3,11 @@ How to Connect to Quickbooks Desktop with ODBC using Microsoft SQL Server
 
 # Prerequisites
 
-1. Quickbooks Enterprise installed (I'm using 2024\)  
-2. SQL Server Standard or higher installed (I'm using 2019 Standard)  
-3. SQL Server Management Studio installed (I'm using version 20\)  
-4. A user created to log in with
+1. Quickbooks Desktop (tested with Quickbooks Desktop for Enterprise 24) 
+2. Microsoft SQL Server Standard or higher installed (tested with 2019 Standard)  
+3. Microsoft SQL Server Management Studio installed (tested with version 20)  
+4. A SQL Server user created to log in with
+5. A Quickbooks Desktop user to log in with
 
 # Creating a Connection String
 
