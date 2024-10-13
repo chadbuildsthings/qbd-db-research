@@ -1,3 +1,6 @@
+How to Log into QuickBooks Desktop Automatically on Windows Startup
+===================================================================
+
 # Prerequisites
 
 1. Quickbooks Enterprise installed on Windows Server 2022  
