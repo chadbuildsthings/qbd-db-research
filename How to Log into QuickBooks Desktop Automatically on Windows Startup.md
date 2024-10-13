@@ -3,9 +3,10 @@ How to Log into QuickBooks Desktop Automatically on Windows Startup
 
 # Prerequisites
 
-1. Quickbooks Enterprise installed on Windows Server 2022  
-2. AutoHotkey v2 installed  
-3. Configured Windows to Automatically log in to a user account with adequate permissions on startup
+1. Microsoft Windows (tested with Microsoft Windows Server 2022)
+2. Quickbooks Desktop (tested with Quickbooks Desktop for Enterprise)
+3. AutoHotkey v2
+4. Configured Windows to Automatically log in to a user account with adequate permissions on startup
 
 # Disable QuickBooks Helper Programs on Startup
 
