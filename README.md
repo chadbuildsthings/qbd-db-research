@@ -15,4 +15,4 @@ The mission of this project is to provide a repository of research, guides, and 
 
 1. Quickbooks Desktop (versions with ODBC access)  
 2. Microsoft SQL Server Standard or Enterprise (versions with support for Linked Servers)  
-3. Auto Hotkey
+3. Auto Hotkey v2
