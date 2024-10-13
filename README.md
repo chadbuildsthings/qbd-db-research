@@ -7,16 +7,16 @@ The mission of this project is to provide a repository of research, guides, and 
 
 # Sample Use Cases
 
-1. Reporting on multi-location inventory data is possible with Quickbooks Desktop for Enterprise  
-2. Running queries that can join tables from other databases present in the same Microsoft SQL Server instance  
-3. Reports run in a fraction of the time when using this method as compared to using API access
+* Reporting on multi-location inventory data is possible with Quickbooks Desktop for Enterprise
+* Running queries that can join tables from other databases present in the same Microsoft SQL Server instance
+* Reports run in a fraction of the time when using this method as compared to using API access
 
 # Prerequisites
 
-1. Quickbooks Desktop (versions with ODBC access)  
-2. Microsoft SQL Server Standard or Enterprise (versions with support for Linked Servers)
-3. Microsoft SQL Server Management Studio
-4. Auto Hotkey v2
+* Quickbooks Desktop (versions with ODBC access)
+* Microsoft SQL Server Standard or Enterprise (versions with support for Linked Servers)
+* Microsoft SQL Server Management Studio
+* Auto Hotkey v2
 
 # Documentation
 
