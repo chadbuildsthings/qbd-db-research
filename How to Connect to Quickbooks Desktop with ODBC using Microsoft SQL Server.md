@@ -1,3 +1,6 @@
+How to Connect to Quickbooks Desktop with ODBC using Microsoft SQL Server
+=========================================================================
+
 # Prerequisites
 
 1. Quickbooks Enterprise installed (I'm using 2024\)  
