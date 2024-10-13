@@ -17,3 +17,7 @@ The mission of this project is to provide a repository of research, guides, and 
 2. Microsoft SQL Server Standard or Enterprise (versions with support for Linked Servers)
 3. Microsoft SQL Server Management Studio
 4. Auto Hotkey v2
+
+# Documentation
+
+Check out and help contribute to our research in our [Wiki](https://github.com/chadbuildsthings/qbd-db-research/wiki)
