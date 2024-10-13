@@ -73,8 +73,7 @@ To set up a Linked Server that is connected to Quickbooks, we have to use a Prov
 9. Verify that it worked  
     1. Assuming you named your linked server QB\_Link  
     2. Click New Query  
-    3. Enter the following:  
-       1. SELECT \* FROM OPENQUERY(\[QB\_LINK\], ‘SELECT DB\_NAME() AS CurrentDatabase’);  
-       2. Click Execute  
-       3. A result should appear with column header “Current Database” and row 1 value being a long string of numbers and letters ranging from a through f  
-       4. If you get a result like this, it worked.
+    3. Enter the following command and click execute:  
+       ```SELECT \* FROM OPENQUERY(\[QB\_LINK\], ‘SELECT DB\_NAME() AS CurrentDatabase’);```
+    4. A result should appear with column header “Current Database” and row 1 value being a long string of numbers and letters ranging from a through f
+    5. If you get a result like this, it worked.
