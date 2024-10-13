@@ -14,5 +14,6 @@ The mission of this project is to provide a repository of research, guides, and 
 # Prerequisites
 
 1. Quickbooks Desktop (versions with ODBC access)  
-2. Microsoft SQL Server Standard or Enterprise (versions with support for Linked Servers)  
-3. Auto Hotkey v2
+2. Microsoft SQL Server Standard or Enterprise (versions with support for Linked Servers)
+3. Microsoft SQL Server Management Studio
+4. Auto Hotkey v2
