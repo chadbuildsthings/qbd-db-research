@@ -20,8 +20,8 @@ To set up a Linked Server that is connected to Quickbooks, we have to use a Prov
 4. There are a few things that can be done to get this file dsn path character count down  
    1. Make sure your server name is as short as possible (e.g. QBE)  
    2. Create an NTFS junction in C:\\ (e.g. C:\\QB) to point to C:\\Users\\Public\\Intuit\\Quickbooks\\Company files  
-      1. From cmd or powershell issues this example command:  
-         mklink /J C:\\QB C:\\Users\\Public\\Intuit\\Quickbooks\\Company files  
+      1. From cmd or powershell, issue this example command:  
+         ```mklink /J C:\\QB C:\\Users\\Public\\Intuit\\Quickbooks\\Company files``` 
    3. Rename your company data file to be a single letter with .qbw extension. To do this, follow these steps.  
       1. Log everyone out of Quickbooks  
       2. Close Quickbooks  
