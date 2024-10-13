@@ -56,21 +56,21 @@ To set up a Linked Server that is connected to Quickbooks, we have to use a Prov
 
 # Create a Linked Server
 
-5. Open SQL Server Management Studio  
-6. In the Object Explorer, expand your SQL Server Instance  
-7. Expand Server Objects  
-8. Right Click Linked Servers  
-9. Click “New Linked Server”  
-10. In the General page  
+1. Open SQL Server Management Studio  
+2. In the Object Explorer, expand your SQL Server Instance  
+3. Expand Server Objects  
+4. Right Click Linked Servers  
+5. Click “New Linked Server”  
+6. In the General page  
     1. Give it a Linked Server name (e.g. QB\_LINK)  
     2. Tick “Other data Source”  
     3. Use provider string generated from the first section (e.g. FILEDSN=C:\\QB\\s.qbw.dsn)  
-11. In the Security page  
+7. In the Security page  
     1. Tick “Be made using this security context:”  
        1. Remote login: enter ODBC User Name from Quickbooks  
        2. With password: enter ODBC Password from Quickbooks  
-12. Click OK. There shouldn’t be any errors.  
-13. Verify that it worked  
+8. Click OK. There shouldn’t be any errors.  
+9. Verify that it worked  
     1. Assuming you named your linked server QB\_Link  
     2. Click New Query  
     3. Enter the following:  
