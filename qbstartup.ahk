@@ -17,7 +17,7 @@ qbwPath := "C:\Program Files\Intuit\QuickBooks Enterprise Solutions 24.0\QBW.exe
 qbwcPath := "C:\Program Files (x86)\Common Files\Intuit\QuickBooks\QBWebConnector\QBWebConnector.exe"
 
 ; Path to your QuickBooks Company File
-companyFilePath := "C:\Users\Public\Documents\Intuit\QuickBooks\Company Files\s.qbw"
+companyFilePath := "C:\Users\Public\Documents\Intuit\QuickBooks\Company Files\enter-company-filename.qbw"
 
 ; QuickBooks Administator Username
 username := "enter-admin-username-here"
